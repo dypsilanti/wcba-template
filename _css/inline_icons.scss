@@ -21,6 +21,7 @@ font-size: pxtoem(33, $basepx);}
 
 /* #wiki_page_show { */
 
+//Below are the current styles for inline icons, added by defining a class within a paragraph tag. Eventually these will be deprecated.
 p.access {
 	background: url("img/inline_icons/access.png") no-repeat 0% 0%;}
 p.assignment {
@@ -146,5 +147,129 @@ p.zip {
 	color:black;
 	content: "\F1A8";
 	@include icon-style;}}
+	
+//Below are similar icons which use attribute selectors and automate the process of adding an icon to a list item
+
+li>a[href $= ".pdf"],
+li>a[href $= ".PDF"], 
+li>a[href $= ".pdf#"],
+li>a[href $= ".PDF#"],
+li>a[href $= ".pdf?"],
+li>a[href $= ".PDF?"],
+li a[title $= ".pdf"],
+li a[title $= ".PDF"], 
+li a[title $= ".pdf#"],
+li a[title $= ".PDF#"],
+li a[title $= ".pdf?"],
+li a[title $= ".PDF?"] {
+	&:before {	
+	color:#d90000;
+	content: "\f200";
+	@include icon-style;}}
+	
+li>a[href $= ".doc"],
+li>a[href $= ".DOC"],
+li>a[href $= ".docx"],
+li>a[href $= ".DOCX"],
+li a[title $= ".doc"],
+li a[title $= ".DOC"],
+li a[title $= ".docx"],
+li a[title $= ".DOCX"] {
+	&:before {	
+	color:#150db5;
+	content: "\f1f6";
+	@include icon-style;}}
+	
+li>a[href $= ".xls"],
+li>a[href $= ".XLS"],
+li>a[href $= ".xlsx"],
+li>a[href $= ".XLSX"],
+li>a[href $= ".xlsm"],
+li>a[href $= ".XLSM"],
+li>a[href $= ".xlsb"],
+li>a[href $= ".XLSB"],
+li a[title $= ".xls"],
+li a[title $= ".XLS"],
+li a[title $= ".xlsx"],
+li a[title $= ".XLSX"],
+li a[title $= ".xlsm"],
+li a[title $= ".XLSM"],
+li a[title $= ".xlsb"],
+li a[title $= ".XLSB"] {
+	&:before {	
+	color:#07532b;
+	content: "\f1f4"; 
+	@include icon-style;}}
+	
+li>a[href $= ".ppt"],
+li>a[href $= ".PPT"],
+li>a[href $= ".pptx"],
+li>a[href $= ".PPTX"],
+li>a[href $= ".pps"],
+li>a[href $= ".PPS"],
+li>a[href $= ".ppsx"],
+li>a[href $= ".PPSX"],
+li a[title $= ".ppt"],
+li a[title $= ".PPT"],
+li a[title $= ".pptx"],
+li a[title $= ".PPTX"],
+li a[title $= ".pps"],
+li a[title $= ".PPS"],
+li a[title $= ".ppsx"],
+li a[title $= ".PPSX"] {
+	&:before {
+	color:#f36b03;
+	content: "\f1f5"; 
+	@include icon-style;}}
+	
+li>a[href $= ".zip"],
+li>a[href $= ".ZIP"],
+li a[title $= ".zip"],
+li a[title $= ".ZIP"] {
+	&:before {	
+	color:#424242;
+	content: "\f1a8"; 
+	@include icon-style;}}
+
+li>a[href $= ".rss"],
+li>a[href $= ".RSS"],
+li a[title $= ".rss"],
+li a[title $= ".RSS"] {
+	&:before {	
+	color:#eb8e00;
+	content: "\f20d";
+	@include icon-style;}}
+
+li>a[href ^= "mailto:"],
+li>a[href ^= "MAILTO:"],
+li a[title ^= "mailto:"],
+li a[title ^= "MAILTO:"] {
+	&:before {	
+	color: black;
+	content: "\f233";
+	@include icon-style;}}
+
+li>a[href ^= "youtube.com"],
+li>a[href ^= "www.youtube.com"],  
+li>a[href ^= "http://www.youtube.com"], 
+li>a[href ^= "vimeo.com"], 
+li>a[href ^= "www.vimeo.com"], 
+li>a[href ^= "http://www.vimeo.com"],
+li>a[href $= "videolectures.asp"], 
+li>a[href ^= "warrington.video.ufl.edu"],
+li>a[href ^= "https://warrington.video.ufl.edu"],
+li a[title ^= "youtube.com"],
+li a[title ^= "www.youtube.com"],  
+li a[title ^= "http://www.youtube.com"], 
+li a[title ^= "vimeo.com"], 
+li a[title ^= "www.vimeo.com"], 
+li a[title ^= "http://www.vimeo.com"],
+li a[title $= "videolectures.asp"], 
+li a[title ^= "warrington.video.ufl.edu"],
+li a[title ^= "https://warrington.video.ufl.edu"] {
+	&:before {	
+	color: black;
+	content: "\f1d3"; 
+	@include icon-style;}}	
 	
 //	} END #wiki_page_show
