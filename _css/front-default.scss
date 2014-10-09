@@ -1,11 +1,14 @@
 @mixin grow-style{
-	background-size: 100px 100px; 
-	background-color: white;}
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-position: center center;}
 	
 // .context-course_...	{
 	
 #prof {	
-	background: url("../_img/prof_img/placeholder.png") no-repeat 0% 100%;
+	background-image: url("../_img/prof_img/placeholder.png");
+	background-repeat: no-repeat;
+	background-position: center center;
 	width: 200px;
 	height: 200px;
 	padding: 0px;
@@ -13,43 +16,43 @@
 	position: absolute;}
 
 #grow.m0 {
-	background: url("../_img/menu_icons/_default/00-start.png") no-repeat center center; 
+	background-image: url("../_img/menu_icons/_default/00-start.png"); 
 	@include grow-style;}
 #grow.m1 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center; 
+	background-image: url("../_img/menu_icons/_default/module.png"); 
 	@include grow-style;}
 #grow.m2 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center; 
+	background-image: url("../_img/menu_icons/_default/module.png"); 
 	@include grow-style;}
 #grow.m3 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center; 
+	background-image: url("../_img/menu_icons/_default/module.png"); 
 	@include grow-style;}
 #grow.m4 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center; 
+	background-image: url("../_img/menu_icons/_default/module.png"); 
 	@include grow-style;}
 #grow.m5 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center; 
+	background-image: url("../_img/menu_icons/_default/module.png"); 
 	@include grow-style;}
 #grow.m6 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center; 
+	background-image: url("../_img/menu_icons/_default/module.png"); 
 	@include grow-style;}
 #grow.m7 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center;
+	background-image: url("../_img/menu_icons/_default/module.png");
 	@include grow-style;}
 #grow.m8 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center;
+	background-image: url("../_img/menu_icons/_default/module.png");
 	@include grow-style;}
 #grow.m9 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center;
+	background-image: url("../_img/menu_icons/_default/module.png");
 	@include grow-style;}
 #grow.m10 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center;
+	background-image: url("../_img/menu_icons/_default/module.png");
 	@include grow-style;}
 #grow.m11 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center;
+	background-image: url("../_img/menu_icons/_default/module.png");
 	@include grow-style;}
 #grow.m12 {
-	background: url("../_img/menu_icons/_default/module.png") no-repeat center center;
+	background-image: url("../_img/menu_icons/_default/module.png");
 	@include grow-style;}
 	
 // } end .context-course_...		
