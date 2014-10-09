@@ -1,0 +1,146 @@
+$basepx: 16;
+
+// Convert PX to EM global function
+@function pxtoem($px, $basepx){
+    @return ($px/$basepx)+0em;
+}
+
+
+@mixin icon-style {
+display: inline-block;
+font-family: "canvas-icons";
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+margin-right: 8px;
+font-size: pxtoem(33, $basepx);}
+
+#wiki_page_show {
+
+p.access {
+	background: url("img/inline_icons/access.png") no-repeat 0% 0%;}
+p.assignment {
+	color:black;
+	content: "\FBD1";
+	@include icon-style;}
+p.book {
+	&:before {
+	color:#a22c43;
+	content: "\F1B7";
+	@include icon-style;}}
+p.cert {
+	&:before {
+	color:black;
+	content: "\F19F";
+	@include icon-style;}}
+p.discussion {
+	&:before {
+	color:#496FC0;
+	content: "\F220";
+	@include icon-style;}}
+p.doc {
+	&:before {
+	color:#150db5;
+	content: "\F1F6";
+	@include icon-style;}}
+p.download {
+	&:before {
+	color:black;
+	content: "\F234";
+	@include icon-style;}}
+p.exam {
+	&:before {
+	color:black;
+	content: "\F21A";
+	@include icon-style;}}
+p.fb {
+	&:before {
+	color:#496ebf;
+	content: "\F1D2";
+	@include icon-style;}}
+p.hours {
+	&:before {
+	color:#37a537;
+	content: "\F19A";
+	@include icon-style;}}
+p.icon_list {
+	background: url("img/icon_list.png") no-repeat 0% 0%;}
+p.lecture {
+	background: url("img/inline_icons/lecture.png") no-repeat 0% 0%;}
+p.link {
+	&:before {
+	color:black;
+	content: "\F1E3";
+	@include icon-style;}}
+p.mail {
+	&:before {
+	color:black;
+	content: "\F233";
+	@include icon-style;}}
+p.meeting {
+	&:before {
+	color:#496ebf;
+	content: "\F1D9";
+	@include icon-style;}}
+p.mindomo {
+	background: url("img/inline_icons/mindomo.png") no-repeat 0% 0%;}
+p.pages {
+	&:before {
+	color:black;
+	content: "\F1CB";
+	@include icon-style;}}
+p.pdf {
+	&:before {
+	color:#d90000;
+	content: "\F200";
+	@include icon-style;}}
+p.phone {
+	background: url("img/inline_icons/phone.png") no-repeat 0% 0%;}
+p.ppt {
+	&:before {
+	color:#f36b03;
+	content: "\F1F5";
+	@include icon-style;}}
+p.quiz,p.quizzes_tap {
+	background: url("img/inline_icons/quiz.png") no-repeat 0% 0%;}
+p.rss {
+	&:before {
+	color:#f36b03;
+	content: "\F20D";
+	@include icon-style;}}
+p.self_test, p.tests {
+	&:before {
+	color:#37a537;
+	content: "\F1CE";
+	@include icon-style;}}
+p.settings {
+	background: url("img/inline_icons/settings.png") no-repeat 0% 0%;}
+p.skype {
+	&:before {
+	color:#12a5f4;
+	content: "\F213";
+	@include icon-style;}}
+p.smiley {
+	background: url("img/inline_icons/smiley.png") no-repeat 0% 0%;}
+p.twitter {
+	&:before {
+	color:#4099ff;
+	content: "\F21E";
+	@include icon-style;}}
+p.video, p.youtube {
+	&:before {
+	color:black;
+	content: "\F1D3";
+	@include icon-style;}}
+p.xls {
+	&:before {
+	color:#07532b;
+	content: "\F1F4";
+	@include icon-style;}}
+p.zip {
+	&:before {
+	color:black;
+	content: "\F1A8";
+	@include icon-style;}}
+	
+	}
