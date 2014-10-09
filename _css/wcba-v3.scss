@@ -12,6 +12,24 @@
 /*==================================================
 END FIXES UL LAYOUT ON ASSIGNMENTS PAGE*/
 
+	blockquote {
+		font-family: Helvetica, sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		font-style: italic;
+		line-height: 24px;
+		letter-spacing: .5px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		margin-top: 20px;
+		padding: 10px;
+		padding-left: 10px;
+		position: relative;
+		width: 85%;
+		background-color: whitesmoke;
+		border-radius: 3px;
+		border: 1px solid #e5e5e5;}
+
 // Hides guides
 	#invs {
 		display: none;
