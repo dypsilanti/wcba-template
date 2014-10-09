@@ -11,6 +11,11 @@
 	font-size: inherit;}
 /*==================================================
 END FIXES UL LAYOUT ON ASSIGNMENTS PAGE*/
+
+// Hides guides
+	#invs {
+		display: none;
+	}
 	
 /*hides course title above content on "front page"*/	
 	h1.course-title.ellipsis {
