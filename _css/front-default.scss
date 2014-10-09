@@ -1,0 +1,66 @@
+@mixin grow-style{
+	background-size: 130px 130px; 
+	background-color: white;}
+	
+// .context-course_...	{
+	
+#prof {	
+	background: url("../img/prof/placeholder.png") no-repeat 0% 100%;
+	width: 200px;
+	height: 200px;
+	padding: 0px;
+	border-radius: 3px;
+	position: absolute;
+	top: 40px;
+	left: 20px;}
+
+#grow.m0 {
+	background: url("../img/menu_icons/acg2071/00-start.png") no-repeat center center; 
+	@include grow-style;}
+#grow.m1 {
+	background: url("../img/menu_icons/acg2071/1-planning.png") no-repeat center center; 
+	@include grow-style;}
+#grow.m2 {
+	background: url("../img/menu_icons/acg2071/2-costs.png") no-repeat center center; 
+	@include grow-style;}
+#grow.m3 {
+	background: url("../img/menu_icons/acg2071/3-cog.png") no-repeat center center; 
+	@include grow-style;}
+#grow.m4 {
+	background: url("../img/menu_icons/acg2071/4-jit.png") no-repeat center center; 
+	@include grow-style;}
+#grow.m4b {
+	background: url("../img/menu_icons/acg2071/4b-m1review.png") no-repeat center center;
+	@include grow-style;}
+#grow.m5 {
+	background: url("../img/menu_icons/acg2071/5-units.png") no-repeat center center; 
+	@include grow-style;}
+#grow.m6 {
+	background: url("../img/menu_icons/acg2071/6-mixed.png") no-repeat center center; 
+	@include grow-style;}
+#grow.m7 {
+	background: url("../img/menu_icons/acg2071/7-break.png") no-repeat center center;
+	@include grow-style;}
+#grow.m8 {
+	background: url("../img/menu_icons/acg2071/8-product.png") no-repeat center center;
+	@include grow-style;}
+#grow.m8b {
+	background: url("../img/menu_icons/acg2071/8b-m2review.png") no-repeat center center;
+	@include grow-style;}
+#grow.m9 {
+	background: url("../img/menu_icons/acg2071/9-budget.png") no-repeat center center;
+	@include grow-style;}
+#grow.m10 {
+	background: url("../img/menu_icons/acg2071/10-decent.png") no-repeat center center;
+	@include grow-style;}
+#grow.m11 {
+	background: url("../img/menu_icons/acg2071/11-variances.png") no-repeat center center;
+	@include grow-style;}
+#grow.m12 {
+	background: url("../img/menu_icons/acg2071/12-rate.png") no-repeat center center;
+	@include grow-style;}
+#grow.m12b {
+	background: url("../img/menu_icons/acg2071/12b-m3review.png") no-repeat center center;
+	@include grow-style;}	
+	
+// } end .context-course_...		
