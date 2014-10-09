@@ -5,6 +5,10 @@ $basepx: 16;
     @return ($px/$basepx)+0em;
 }
 
+@font-face {
+	font-family: "canvas-icons";
+	src: url("../../canvas-lms/public/font/canvas/canvas-icons.woff")
+}
 
 @mixin icon-style {
 display: inline-block;
@@ -15,7 +19,7 @@ line-height: 1;
 margin-right: 8px;
 font-size: pxtoem(33, $basepx);}
 
-#wiki_page_show {
+/* #wiki_page_show { */
 
 p.access {
 	background: url("img/inline_icons/access.png") no-repeat 0% 0%;}
@@ -143,4 +147,4 @@ p.zip {
 	content: "\F1A8";
 	@include icon-style;}}
 	
-	}
+//	} END #wiki_page_show
