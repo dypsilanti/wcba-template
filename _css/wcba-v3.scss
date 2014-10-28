@@ -40,6 +40,7 @@ END FIXES UL LAYOUT ON ASSIGNMENTS PAGE*/
 		visibility: hidden;}
 	
 	.head {
+		font-family: "Lato", sans-serif;
 		width: auto;
 		height: auto;
 		min-height: 220px;
@@ -58,7 +59,6 @@ END FIXES UL LAYOUT ON ASSIGNMENTS PAGE*/
 		word-break: break-word;}
 		
 	.head #course_name {
-		font-family: "Lato", sans-serif;	
 		font-size: 400%;
 		font-weight: 700;
 		color: white;
@@ -68,11 +68,12 @@ END FIXES UL LAYOUT ON ASSIGNMENTS PAGE*/
 		border-bottom: 0; }
 
 	.head #course_sub {
+		
 		color: white;
-		font-size: 66%;
+		font-size: 300%;
 		font-weight: 400;
 		line-height: 1.1em;
-		
+		padding-left: 220px;
 		width: auto;
 		background-color: transparent;
 		border: 0px;
