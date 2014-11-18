@@ -5,8 +5,8 @@
 	
 // .context-course_...	{
 	
-#prof {	
-	background-image: url("../_img/prof_img/placeholder.png");
+.prof {	
+	
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 200px;
@@ -14,6 +14,16 @@
 	padding: 0px;
 	border-radius: 3px;
 	position: absolute;}
+	
+.prof {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 5px solid whitesmoke;
+	background-repeat: no-repeat;
+	box-shadow: 0px 1px 1px rgba(48,48,48,1);
+	background-size: cover;
+	position: absolute;}	
 
 #grow.m0 {
 	background-image: url("../_img/menu_icons/_default/00-start.png"); 
