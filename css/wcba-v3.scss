@@ -1,46 +1,51 @@
-/*FIXES UL LAYOUT ON ASSIGNMENTS PAGE
-==================================================*/
-#context_modules_sortable_container ul,
-#context_modules_sortable_container ol {
-	padding-left: inherit;
-	padding-right: inherit;
-	margin-bottom: inherit;}
+.context-course_ {
+/*EDUCAUSE EXAMPLE*/		&312879,
+/*WCBA TEMPLATE*/			// &197687,
+/*WCBA STUDENT GUIDES*/ 	&200041,
+/*AACSB COURSE*/			&218284,
+/*A14 MAR3231 TROBAUGH*/	&211670,
+/*C14 GEB3219 MCCAWLEY*/	&225650,
 
-#context_modules_sortable_container li {
-	margin-bottom: inherit;
-	font-size: inherit;}
-/*==================================================
-END FIXES UL LAYOUT ON ASSIGNMENTS PAGE*/
+/*F14 ACG2021 GOSLINGA*/	&219089,
+/*F14 ACG2071 GARVIN*/		&219090,
+/*F14 ECO2013 KNIGHT*/		&219092,
+/*F14 ECO2023 RUSH*/		&217960,
+/*F14 ENT3003 ROSSI*/		&219094,
+/*F14 ENT4934 JOOS*/ 		&224394,
+/*F14 FIN3403 TAPLEY*/		&224395,
+/*F14 GEB3213 BARNES*/		&295307,
+/*F14 GEB3373 PHALIN*/		&224396,
+/*F14 ISM3004 OLSON*/		&219095,
+/*F14 ISM3013 MUKHERJEE*/	&148550,
+/*F14 ISM3013 MUKHERJEE*/	&295296,
+/*F14 MAN3025 ARCHAMBEAU*/	&219096,
+/*F14 MAN4504 MUNSON*/ 		&257066,
+/*F14 MAR3023 LUTZ*/		&219097,
+/*F14 NET1000 DBA1 */		&255694,
+/*F14 NET1000 DBA2*/		&280374,
+/*F14 NET1000 MBA */		&280375,
+/*F14 QMB3250 THOMPSON*/	&219098,
+/*F14 REE3043 MALONE*/		&224397,
 
-	blockquote {
-		font-family: Helvetica, sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		font-style: italic;
-		line-height: 24px;
-		letter-spacing: .5px;
-		margin-left: 20px;
-		margin-bottom: 10px;
-		margin-top: 20px;
-		padding: 10px;
-		padding-left: 10px;
-		position: relative;
-		width: 85%;
-		background-color: whitesmoke;
-		border-radius: 3px;
-		border: 1px solid #e5e5e5;}
-
-// Hides guides
-	#invs {
-		display: none;
-	}
+/*S15 ACG2021 GOSLINGA*/	&312996,
+/*S15 ACG2071 GARVIN*/		&312997,
+/*S15 BUL4310 Emerson*/		&224392,
+/*S15 ECO2013 Knight*/		&313525,
+/*S15 ECO2023 Rush*/		&313000,
+/*S15 ENT3003 ROSSI*/		&313486,
+/*S15 FIN3403 TAPLET*/		&313001,
+/*S15 GEB3213 Douglas*/		&313272,
+/*S15 GEB3373 PHALIN*/		&313002,
+/*S15 ISM3004 Olson*/		&313003,
+/*S15 MAN3025 Archambeau*/	&313397,
+/*S15 MAN4504 Munson*/		&313004,
+/*S15 MAR3023 DiPasquale*/	&313266,
+/*S15 QMB3250 Thompson*/	&313005 { 
 	
-/*hides course title above content on "front page"*/	
-	h1.course-title.ellipsis {
-		visibility: hidden;}
-	
+	/*HOMEPAGE*/
+	#wiki_page_show{
+		
 	.head {
-		font-family: "Lato", sans-serif;
 		width: auto;
 		height: auto;
 		min-height: 220px;
@@ -59,21 +64,19 @@ END FIXES UL LAYOUT ON ASSIGNMENTS PAGE*/
 		word-break: break-word;}
 		
 	.head #course_name {
+		font-family: "Lato", sans-serif;	
 		font-size: 400%;
 		font-weight: 700;
 		color: white;
 		letter-spacing: 2px;
 		line-height: 1.1em;
-		padding-left: 220px;
-		border-bottom: 0; }
+		padding-left: 220px; }
 
 	.head #course_sub {
-		
 		color: white;
 		font-size: 200%;
-		font-weight: 400;
 		line-height: 1.1em;
-		padding-left: 220px;
+		padding-left: 200px;
 		width: auto;
 		background-color: transparent;
 		border: 0px;
@@ -176,7 +179,8 @@ END SUBTITLE */
 		margin-bottom: 40px;
 		margin-left: 20px;
 		margin-right: 0px;
-		width: 200px;}
+		width: 200px;
+		}
 		
 	#grow {
 		width: 100px;
@@ -227,7 +231,7 @@ END SUBTITLE */
 
 
 /*WIKI PAGES*/
-	h2.page-title {
+	h1.page-title {
 		width: auto;
 		max-width: none;
 		height: auto;
@@ -245,7 +249,8 @@ END SUBTITLE */
 		color: white !important; 
 		letter-spacing: 2px;
 		line-height: 1.1em;}
-
+		
+//template-global.scss
 	.show-content.user_content.enhanced {
 		padding: 0px 0px;}
 		
@@ -337,14 +342,14 @@ END SUBTITLE */
 	.back {
 		margin-right: 20px;}
 		
-	.container ul, ol, ul {
+	.container ul, .container ol{
 		padding-left: 2.5%;
 		padding-right: 20px;
 		margin-bottom: 20px;}
 	
-	.container li, li {
+	.container li {
 		margin-bottom: 6px;
-		font-size: 16px; }
+		font-size: 120%;}
 		
 	// fixes style conflicts on "files" page
 	.files_holder {
@@ -460,7 +465,7 @@ END SUBTITLE */
 	margin-right: 0;}
 	
 .column.full {
-	width: 90%;}
+	width: 100%;}
 
 .column.three-fourths {
 	width: 74%;}	
@@ -477,7 +482,151 @@ END SUBTITLE */
 .column.one-fourth {
 	width: 22%;}		
 	
-	/* ROW
+/* ROW
+===============================*/
+.clearfix {*zoom: 1;}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;}
+ 
+.clearfix:after {
+  clear: both;}
+ 
+.row {
+  overflow: visible;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  clear:both;}
+  
+ .content .row {
+  overflow: visible;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  clear:both;}
+
+.row:first-child {
+	margin-top: 0px;}
+	
+.row:last-child {
+	margin-bottom: 0px;}
+/*===============================
+END ROW */
+		
+/*IMAGE CAPTIONS*/
+	.caption a {
+		font-size: small;
+		display: block;
+		text-align: right;}
+	
+	.caption img {
+		width: 100%;}
+		
+	.caption p:first-child {
+		padding-bottom: 0;
+		margin-bottom: 0;}
+		
+	.caption p:last-child {
+		margin: 0;}
+		
+
+		
+@media screen and (max-width: 1070px) {
+	.content {
+	.column.full,
+	.column.two-thirds,
+	.column.half,
+	.column.one-third,
+	.column.one-fourth,
+	.column.three-fourths {
+		margin-bottom: 10px;
+		width: 90%;
+		margin-left: 0;
+		margin-right: 0;}
+		} //END .content
+		} //END @media screen and (max-width: 1300px)
+		
+@media screen and (max-width: 1070px) {
+	.head #course_name {
+		font-size: 275%;}
+	.head #course_sub {
+		font-size: 150%;}		
+}
+		
+		} // END #wiki_page_show
+
+//DISCUSSION PAGE STYLES
+#discussion_container {
+
+/*IMAGE CAPTIONS*/
+	.caption a {
+		font-size: small;
+		display: block;
+		text-align: right;}
+	
+	.caption img {
+		width: 100%;}
+		
+	p > img {
+		margin-left: 0px;}
+		
+	img {
+		width: auto;
+		max-width: 100% !important;}
+
+/*COLUMNS and ROWS*/
+.column {
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: none;}
+
+.column:first-child {
+	margin-left: 0;}
+	
+.column:last-child {
+	margin-right: 0;}
+	
+.column.full {
+	width: 100%;}
+
+.column.three-fourths {
+	width: 74%;}	
+  
+.column.two-thirds {
+	width: 65.33333333333333%;}
+  
+.column.half {
+	width: 48%; }
+ 
+.column.one-third {
+	width: 30.66666666666667%;}
+ 
+.column.one-fourth {
+	width: 22%;}	
+	
+@media screen and (max-width: 1400px) {
+	.column.full,
+	.column.two-thirds,
+	.column.half,
+	.column.one-third,
+	.column.one-fourth,
+	.column.three-fourths {
+		margin-bottom: 10px;
+		width: 90%;
+		margin-left: 0;
+		margin-right: 0;}
+		} //END @media screen and (max-width: 1300px)	
+	
+/* ROW
 ===============================*/
 .clearfix {*zoom: 1;}
 
@@ -502,61 +651,10 @@ END SUBTITLE */
 	
 .row:last-child {
 	margin-bottom: 0px;}
-	
-  
-  
 /*===============================
 END ROW */
-		
-/*QUIZ TITLE*/
-	#quiz_title {
-		background-color: #6daed9;
-		color: white;
-		padding-left: 10px;
-		font-weight: 300;
-		letter-spacing: 0.04em;}
-		
-/*IMAGE CAPTIONS*/
-	.caption a {
-		font-size: small;
-		display: block;
-		text-align: right;}
-	
-	.caption img {
-		width: 100%;}
-		
-
-		
-@media screen and (max-width: 1300px) {
-	.content {
-	.column.full,
-	.column.two-thirds,
-	.column.half,
-	.column.one-third,
-	.column.one-fourth,
-	.column.three-fourths {
-		margin-bottom: 10px;
-		width: 90%;
-		margin-left: 0;
-		margin-right: 0;}
-		} //END .content
-		} //END @media screen and (max-width: 1300px)
-		
-@media screen and (max-width: 1070px) {
-	.head #course_name {
-		font-size: 275%;}
-	.head #course_sub {
-		font-size: 150%;}		
 
 
-//DISCUSSION PAGE STYLES
-#discussion_container {
-
-	.entry-content ol, .entry-content ul {
-		padding-left: 2.5%;
-		padding-right: 20px;
-		margin-bottom: 20px;}
-	
 	.entry-content li {
 		margin-bottom: 6px;
 		font-size: 16px;}
@@ -816,8 +914,26 @@ p {
 		box-shadow: 0px 1px 3px  #888888;}
 		}//END DISCUSSION PAGE STYLES #discussion_container
 	
+	// Quiz Header
+.quiz-header h1:first-child {
+		padding: 10px;
+		font-weight: 300;
+		background-color: #6CADD9;
+		color: white;
+		font-family: "Lato", sans-serif;
+		letter-spacing: 1px;}
 		
-		}
+// Assignment Header
+#assignment_show h1.title {
+		background-color: #6CADD9;
+		padding: 10px;
+		color: white;
+		font-family: "Lato", sans-serif;
+		letter-spacing: 1px;
+		font-weight: 300;
+		margin-bottom: 10px;}
+		
+		}}//END .CONTEXT-COURSE_XXXXXX
 		
 //F14 REE3043 MALONE DISCUSSIONS EXCEPTION
 .context-course_224397	{
@@ -833,22 +949,6 @@ p {
 	}// END #discussion_container
 } //END MALONE DISCUSSIONS EXCEPTION
 
-.quiz-header h2:first-child {
-		padding: 10px;
-		font-weight: 300;
-		background-color: #6CADD9;
-		color: white;
-		font-family: "Lato", sans-serif;
-		letter-spacing: 1px;}
-
-#assignment_show h2.title {
-		background-color: #6CADD9;
-		padding: 10px;
-		color: white;
-		font-family: "Lato", sans-serif;
-		letter-spacing: 1px;
-		font-weight: 300;
-		margin-bottom: 10px;}
 	
 // ENT3003 ROW STYLES
 // ==================================
@@ -861,13 +961,3 @@ p {
   margin-bottom: 0;
   margin: 0;
   clear:both;}
-		
-	
-	
-
-
-
-
-
-
-
