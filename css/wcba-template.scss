@@ -184,13 +184,43 @@ END SUBTITLE */
 		}
 		
 	.button {
-		margin: 0px;
-		margin-bottom: 40px;
-		margin-left: 20px;
-		margin-right: 0px;
-		width: 200px;
+		width: 150px;
+		height: 150px;
+		margin: 0 0 60px 4.5%;
+		border-radius: 5%;
+		box-shadow: 0px 1px 3px #888888;
+		background-color: white;
+		transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
+		position: relative;
+		float: left;
 		}
-		
+	
+	.button:hover {
+		width: 150px;
+		height: 150px;
+		background-color: #6CADD9;
+		border-radius: 33%;
+	}
+	
+	.button a {
+		font-family: "Lato",sans-serif;
+		font-size: 18px;
+		text-decoration: none;
+		display: block;
+		padding: 150px 0px 0px 0px;
+		color: black;
+		text-align: center;
+		transition: color .25s ease-in-out;
+		font-weight: 400;
+		letter-spacing: .5px;
+		position: relative;
+		top: 10px;}
+	
+	.button a:hover {
+		color: #6CADD9;
+	}
+
+//remove #grow, #grow:hover, #grow a, #grow a:hover once all html [pages are updated		
 	#grow {
 		width: 100px;
 		height: 100px;
@@ -206,31 +236,8 @@ END SUBTITLE */
 		background-color: transparent;
 		padding: 20px;
 		transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
-		-webkit-transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
-		-ms-transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
-		-moz-transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
-		-o-transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;}
-		
-	.grow {
-		width: 100px;
-		height: 100px;
-		-webkit-border-radius: 5%;
-		-moz-border-radius: 5%;
-		border-radius: 5%;
-		box-shadow: 0px 1px 3px #888888;
-		margin: 10px;
-		margin-bottom: 40px;
-		background-image: "";
-		background-repeat: no-repeat;
-		background-origin: content-box;
-		background-color: transparent;
-		padding: 20px;
-		transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
-		-webkit-transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
-		-ms-transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
-		-moz-transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
-		-o-transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;}
-	
+		}
+
 	#grow:hover {
 		background-image: "";
 		background-repeat: no-repeat;
@@ -240,15 +247,6 @@ END SUBTITLE */
 		-webkit-border-radius: 33%;
 		-moz-border-radius: 33%;}
 		
-	.grow:hover {
-		background-image: "";
-		background-repeat: no-repeat;
-		background-origin:content-box;
-		background-color: #6CADD9;
-		border-radius:33%;
-		-webkit-border-radius: 33%;
-		-moz-border-radius: 33%;}
-	
 	#grow a {
 		font-family: "Lato",sans-serif;
 		font-size: 1.3em;
@@ -264,28 +262,9 @@ END SUBTITLE */
 		text-align: center;
 		transition: color .5s;}
 		
-	.grow a {
-		font-family: "Lato",sans-serif;
-		font-size: 1.3em;
-		text-decoration: none;
-		width: 140px;
-		height: auto;
-		display: block;
-		padding-top: 150px;
-		position: relative;
-		right: 20px;
-		bottom: 20px;
-		color: #303030;
-		text-align: center;
-		transition: color .5s;}
-	
 	#grow a:hover {
 		color: #6CADD9;}
 		
-	.grow a:hover {
-		color: #6CADD9;}
-
-
 /*WIKI PAGES*/
 	h1.page-title {
 		width: auto;
