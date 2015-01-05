@@ -127,13 +127,15 @@
 			}
 		}
 		
+		.container ul.nav  {
+			margin: 0;
+		}
+		
 		.nav {
 			padding-left: 2.5%;
 			font-size: 100%;
 			position: relative;
-			margin-bottom: 0;
-			margin-top: 0; 
-			
+						
 			ul {
 				padding-left: 0;
 				padding-right: 0;
