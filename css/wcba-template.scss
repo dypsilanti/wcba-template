@@ -200,6 +200,9 @@
 		border-radius: 5%;
 		box-shadow: 0px 1px 3px #888888;
 		background-color: white;
+		background-size: 100px;
+		background-repeat: no-repeat;
+		background-position: center center;
 		transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
 		position: relative;
 		float: left;
