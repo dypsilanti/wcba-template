@@ -524,7 +524,7 @@ END ROW */
 //DISCUSSION PAGE STYLES
 #discussion_container {
 
-/*IMAGE CAPTIONS*/
+	/*IMAGE CAPTIONS*/
 	.caption a {
 		font-size: small;
 		display: block;
@@ -540,80 +540,80 @@ END ROW */
 		width: auto;
 		max-width: 100% !important;}
 
-/*COLUMNS and ROWS*/
-.column {
-	float: left;
-	margin-left: 1%;
-	margin-right: 1%;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	max-width: none;}
-
-.column:first-child {
-	margin-left: 0;}
+	/*COLUMNS and ROWS*/
+	.column {
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		max-width: none;}
 	
-.column:last-child {
-	margin-right: 0;}
-	
-.column.full {
-	width: 100%;}
-
-.column.three-fourths {
-	width: 74%;}	
-  
-.column.two-thirds {
-	width: 65.33333333333333%;}
-  
-.column.half {
-	width: 48%; }
- 
-.column.one-third {
-	width: 30.66666666666667%;}
- 
-.column.one-fourth {
-	width: 22%;}	
-	
-@media screen and (max-width: 1400px) {
-	.column.full,
-	.column.two-thirds,
-	.column.half,
-	.column.one-third,
-	.column.one-fourth,
-	.column.three-fourths {
-		margin-bottom: 10px;
-		width: 90%;
-		margin-left: 0;
+	.column:first-child {
+		margin-left: 0;}
+		
+	.column:last-child {
 		margin-right: 0;}
-		} //END @media screen and (max-width: 1300px)	
 	
-/* ROW
-===============================*/
-.clearfix {*zoom: 1;}
+	.column.full {
+		width: 100%;}
 
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;}
- 
-.clearfix:after {
-  clear: both;}
- 
-.row {
-  overflow: visible;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  clear:both;}
-
-.row:first-child {
-	margin-top: 0px;}
+	.column.three-fourths {
+		width: 74%;}	
+	  
+	.column.two-thirds {
+		width: 65.33333333333333%;}
+	  
+	.column.half {
+		width: 48%; }
+	 
+	.column.one-third {
+		width: 30.66666666666667%;}
+	 
+	.column.one-fourth {
+		width: 22%;}	
 	
-.row:last-child {
-	margin-bottom: 0px;}
-/*===============================
-END ROW */
+	@media screen and (max-width: 1400px) {
+		.column.full,
+		.column.two-thirds,
+		.column.half,
+		.column.one-third,
+		.column.one-fourth,
+		.column.three-fourths {
+			margin-bottom: 10px;
+			width: 90%;
+			margin-left: 0;
+			margin-right: 0;}
+			} //END @media screen and (max-width: 1300px)	
+	
+			/* ROW
+		===============================*/
+		.clearfix {*zoom: 1;}
+		
+		.clearfix:before,
+		.clearfix:after {
+		  content: " ";
+		  display: table;}
+		 
+		.clearfix:after {
+		  clear: both;}
+		 
+		.row {
+		  overflow: visible;
+		  margin-left: 30px;
+		  margin-right: 30px;
+		  margin-top: 30px;
+		  margin-bottom: 30px;
+		  clear:both;}
+		
+		.row:first-child {
+			margin-top: 0px;}
+			
+		.row:last-child {
+			margin-bottom: 0px;}
+		/*===============================
+		END ROW */
 
 
 	.entry-content li {
@@ -621,7 +621,7 @@ END ROW */
 		font-size: 16px;}
 
 
-p { 
+	p { 
 		overflow-wrap: break-word;
 		margin-top: 20px;
 		margin-bottom: 20px;
@@ -631,11 +631,8 @@ p {
 		line-height: 1.65em;
 		word-spacing: 0.05em;
 		letter-spacing: .01em;}
-		
-	
 
-
-/*DICUSSION PAGES*/		
+	/*DICUSSION PAGES*/		
 	.entry-content {
 		position: relative;
 		margin: 0 auto;
@@ -652,7 +649,7 @@ p {
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0f2ff", endColorstr="#e0f2ff",GradientType=0 );
 		/* background gradient end */}
 
-/*DISCUSSION ALERT*/
+	/*DISCUSSION ALERT*/
 	.alert p {
 		margin-top: inherit;
 		margin-bottom: inherit;
@@ -663,7 +660,7 @@ p {
 		padding-left: inherit;
 		padding-right: inherit;}
 		
-/* DISCUSSION HEADER */
+	/* DISCUSSION HEADER */
 	header.discussion-section {
 		padding: 10px;
 		background: #6daed9;
@@ -695,7 +692,7 @@ p {
 	header .discussion-pubdate {
 		display: none;}
 		
-/*DISCUSSION NAVIGATION*/
+	/*DISCUSSION NAVIGATION*/
 	.entry-content a.prev {
 		float: left;
 		position: relative;
@@ -706,8 +703,7 @@ p {
 		position: relative;
 		bottom: 10px;}
 		
-/*DISCUSSION REPLY*/
-	
+	/*DISCUSSION REPLY*/
 	header .pull-right {
 		display: none;}
 		
@@ -740,9 +736,7 @@ p {
 	.entry .entry-content header .discussion-pubdate {
 		display: block;}
 
-/*DISCUSSION*/
-
-
+	/*DISCUSSION*/
 	.discussion-title a.title {
 		font-family: inherit;
 		color: inherit;
@@ -860,7 +854,7 @@ p {
 		}//END DISCUSSION PAGE STYLES #discussion_container
 	
 	// Quiz Header
-.quiz-header h1:first-child {
+	.quiz-header h1:first-child {
 		padding: 10px;
 		font-weight: 300;
 		background-color: #6CADD9;
@@ -869,7 +863,7 @@ p {
 		letter-spacing: 1px;}
 		
 // Assignment Header
-#assignment_show h1.title {
+	#assignment_show h1.title {
 		background-color: #6CADD9;
 		padding: 10px;
 		color: white;
@@ -880,19 +874,19 @@ p {
 		
 		}}//END .CONTEXT-COURSE_XXXXXX
 		
-//F14 REE3043 MALONE DISCUSSIONS EXCEPTION
-.context-course_224397	{
-	#discussion_container {
-		#discussion_topic  a.author,
-		#discussion_topic  a.avatar,
-		header .discussion-pubdate,
-		header .pull-right span.total-items,
-		header .new-and-total-badge .new-items {
-		display: block;
-		color: white;
-		letter-spacing: 1px;}
-	}// END #discussion_container
-} //END MALONE DISCUSSIONS EXCEPTION
+	//F14 REE3043 MALONE DISCUSSIONS EXCEPTION
+	.context-course_224397	{
+		#discussion_container {
+			#discussion_topic  a.author,
+			#discussion_topic  a.avatar,
+			header .discussion-pubdate,
+			header .pull-right span.total-items,
+			header .new-and-total-badge .new-items {
+			display: block;
+			color: white;
+			letter-spacing: 1px;}
+		}// END #discussion_container
+	} //END MALONE DISCUSSIONS EXCEPTION
 
 	
 // ENT3003 ROW STYLES
