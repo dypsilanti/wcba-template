@@ -524,22 +524,6 @@ END ROW */
 //DISCUSSION PAGE STYLES
 #discussion_container {
 
-	/*IMAGE CAPTIONS*/
-	.caption a {
-		font-size: small;
-		display: block;
-		text-align: right;}
-	
-	.caption img {
-		width: 100%;}
-		
-	p > img {
-		margin-left: 0px;}
-		
-	img {
-		width: auto;
-		max-width: 100% !important;}
-
 	/*COLUMNS and ROWS*/
 	.column {
 		float: left;
