@@ -524,23 +524,10 @@ END ROW */
 //DISCUSSION PAGE STYLES
 #discussion_container {
 
-	.entry-content li {
-		margin-bottom: 6px;
-		font-size: 16px;}
-
-
 	p { 
-		overflow-wrap: break-word;
 		margin-top: 20px;
-		margin-bottom: 20px;
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 120%;
-		line-height: 1.65em;
-		word-spacing: 0.05em;
-		letter-spacing: .01em;}
-
-	/*DICUSSION PAGES*/		
+	}
+	//DICUSSION PAGES	
 	.entry-content {
 		position: relative;
 		margin: 0 auto;
@@ -556,6 +543,10 @@ END ROW */
 		background: linear-gradient(to bottom, #e0f2ff 0%, white 22%, white 96%, #e0f2ff 100%);
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0f2ff", endColorstr="#e0f2ff",GradientType=0 );
 		/* background gradient end */}
+		
+	.entry-content li {
+		margin-bottom: 6px;
+		font-size: 16px;}
 
 	/*DISCUSSION ALERT*/
 	.alert p {
