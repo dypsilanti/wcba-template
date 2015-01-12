@@ -557,20 +557,10 @@ END ROW */
 		display: none;}
 		
 	.entry header.discussion-section {
-		background-color: inherit;
 		margin: inherit;
-		border: inherit;
-		box-shadow: none;
-		font-family: inherit;
-		font-size: inherit;
-		font-weight: inherit;
-		color: inherit;
-		letter-spacing: inherit;}
+	}
 		
 	.entry .entry-content {
-		position: inherit;
-		margin: inherit;
-		padding-bottom: inherit;
 		background: inherit;}
 
 	.entry .entry-content header.discussion-subtitle {
@@ -652,10 +642,6 @@ END ROW */
 		font-weight: inherit;
 		color: inherit;
 		letter-spacing: inherit;}
-		
-	.entry .entry-content {
-		background: inherit;
-		padding-right: 0px;}
 		
 	.user_content table td {
 		padding: 10px;}
