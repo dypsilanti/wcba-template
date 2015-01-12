@@ -692,22 +692,13 @@ END ROW */
 		visibility: hidden;}
 		
 	header.discussion-section.clearfix {
-		width: auto;
-		height: auto;
 		padding: 10px;
-		padding-left: 20px;
 		background: #6daed9;
 		border: 1px solid #69A8D3;
-		-webkit-border-top-left-radius: 3px;
-		-webkit-border-top-right-radius: 3px;
-		-moz-border-radius-topleft: 3px;
-		-moz-border-radius-topright: 3px;
-		border-top-left-radius: 3px;
-		border-top-right-radius: 3px;
+		border-radius: 3px;
 		margin: 20px;
-		margin-right: 40px;
-		box-shadow: 0px 1px 3px  #888888;}
-		}//END DISCUSSION PAGE STYLES #discussion_container
+	}
+} //END DISCUSSION PAGE STYLES #discussion_container
 	
 	// Quiz Header
 	.quiz-header h1:first-child {
