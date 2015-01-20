@@ -56,7 +56,7 @@
 					padding-left: 60px;
 					margin: 0;
 				}
-			}
+			} // .subtitle
 			
 			// .subtitle exception for graded rubrics
 			#graded_assignment_fields .subtitle,
@@ -103,7 +103,7 @@
 					font-weight: 400;
 					line-height: 1em;
 				}
-			}
+			} // .title
 			
 			.container ul.nav  {
 				margin: 0;
@@ -142,8 +142,8 @@
 						color: white;
 						border: 1px solid #69A8D3;
 					}
-				}
-			}
+				} // li a
+			} // .nav
 			
 			/*MODULES NAVIGATION*/		
 			.button {
@@ -258,7 +258,7 @@
 					border-radius: 3px;
 					border: 1px solid #e5e5e5;
 				}
-			} // end .content
+			} // .content
 			
 			.back {margin-right: 20px;}
 				
@@ -281,7 +281,7 @@
 					margin-bottom: 0;
 					font-size: inherit; 
 				}
-			} // end .files_holder
+			} // .files_holder
 				
 			.container li > p, li > p{
 				margin: inherit;
@@ -291,23 +291,6 @@
 				letter-spacing: inherit;
 				padding-left: inherit;
 				padding-right: inherit;}
-						
-			p { 
-				margin: 20px 2%;
-				font-size: 120%;
-				line-height: 1.65em;
-				word-spacing: 0.05em;
-				letter-spacing: .01em;}
-				
-			p > h2 {
-					font-size: 35px;
-					line-height: 40px; 
-					margin-bottom: '';}
-				
-			p > h3 {
-					font-size: 28px; 
-					line-height: 34px; 
-					margin-bottom: 8px;}
 			
 			.content iframe, img {
 				margin-left: 20px;
