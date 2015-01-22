@@ -369,6 +369,15 @@
 				background: #6daed9;
 				border: 1px solid #69A8D3;
 			}
+			h1.discussion-title,
+			header.discussion-section .discussion-pubdate {
+				color: white;
+			}
+			
+			a.avatar,
+			a.author {
+				display: none;
+			}
 		} // #discussion_topic
 		
 		// Quiz Header
