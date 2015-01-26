@@ -308,22 +308,6 @@
 				width: auto;
 				max-width: 100% !important;
 			}
-			
-			/*IMAGE CATIONS*/
-			.caption a {
-				font-size: small;
-				display: block;
-				text-align: right;}
-				
-			.caption img {
-				width: 100;}
-					
-			.caption p:first-child {
-				padding-bottom: 0;
-				margin-bottom: 0;}
-					
-			.caption p:last-child {
-				margin: 0;}						
 					
 			@media screen and (max-width: 1300px) {
 				.content {
