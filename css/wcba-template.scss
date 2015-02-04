@@ -352,5 +352,16 @@
 			font-weight: 300;
 			margin-bottom: 10px;
 		}
-	}
-}
+		
+		// Syllabus Header
+		//================
+		&.syllabus h1 {
+			margin-top: 20px; 
+			padding: 5px;
+			font-weight: 300;
+			background-color: #6CADD9;
+			color: white;
+			border-radius: 3px;
+		}
+	} // &course-ids
+}// .context-course_
