@@ -45,111 +45,39 @@
 		/*HOMEPAGE*/
 		#wiki_page_show{
 			
-			.subtitle {
-				background-color: #6CADD9;
-						
-				p {
-					color: white;
-					letter-spacing: .08em;
-					font-weight: 300;
-					font-size: 1.5em;
-					padding: 0 0 5px 60px;
-					margin: 0;
-				}
-			} // .subtitle
+			// removes padding for wiki page content area 	
+// 			.show-content {padding: 0;}
 			
-			// .subtitle exception for graded rubrics
-			#graded_assignment_fields .subtitle,
-			.nested .subtitle {
-				background: transparent;
-				position: inherit;
-				top: inherit;
-				margin-bottom: 0;
+			.subtitle {background-color: #6CADD9;}
+			
+			.container {background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwZjJmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIyJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk2JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMGYyZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+				
 			}
 			
-			.container {
-				background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwZjJmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIyJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk2JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMGYyZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-			}
-			
+			//=================
+			// COURSE HEADER
+			//=================
+			// wraps around .prof photo and .title
 			.head {
-				min-height: 200px;
 				padding: 20px;
-				margin: 20px 2.5% 0 2.5%;
 				background: #6CADD9;
-				border: 1px solid #69A8D3;
 				-webkit-border-radius: 3px;
 				-moz-border-radius: 3px;
 				border-radius: 3px;
-				box-shadow: 0px 1px 3px  #888888;
 				-ms-word-break: break-word;
 				word-break: break-word;
 			}
-				
-			.title {
-				padding-left: 220px; 
-				font-family: "Lato", sans-serif;
-				color: white;
-				letter-spacing: 2px;
-				
-				h2 {
-					font-size: 400%;
-					font-weight: 700;
-					line-height: 1em;
-					margin-top: 0;
-				}
 			
-				h4 {
-					font-size: 300%;
-					font-weight: 400;
-					line-height: 1em;
-				}
-			} // .title
+			// instructor's photo
+			.prof {
+				background: url('course-style/_default/placeholder.png') no-repeat 0% 100%;
+			border-radius: 3px;
+			} 
 			
-			.container ul.nav  {
-				margin: 0;
-			}
-			
-			.nav {
-				ul {
-					display: inline;
-					list-style: none;
-				}
-				
-				li a {
-					float: left;
-					font-size: 16px;
-					text-decoration: none;
-					font-family: "Lato", sans-serif;
-					color: #333;
-					width: auto;
-					margin-right: 10px;
-					margin-bottom: 10px;
-					padding: 5px;
-					padding-left: 10px;
-					padding-right: 10px;
-					background: #FCFCFC;
-					border: 1px solid #D3D3D3;
-					-webkit-border-radius: 3px;
-					-moz-border-radius: 3px;
-					border-radius: 3px;
-					-webkit-transition: background 0.3s ease-in-out,  color 0.3s ease-in-out, border 0.3s ease-in-out;
-					-moz-transition: background 0.3s ease-in-out,  color 0.3s ease-in-out, border 0.3s ease-in-out;
-					-o-transition: background 0.3s ease-in-out,  color 0.3s ease-in-out, border 0.3s ease-in-out;
-					transition: background 0.3s ease-in-out,  color 0.3s ease-in-out, border 0.3s ease-in-out;
-					
-					&:hover {
-						background: #6CADD9;
-						color: white;
-						border: 1px solid #69A8D3;
-					}
-				} // li a
-			} // .nav
-			
-			/*MODULES NAVIGATION*/		
+			//=================
+			// MODULE NAVIGATION
+			//=================
 			.button {
-				width: 150px;
-				height: 150px;
-				margin: 0 0 80px 2.5%;
 				border-radius: 5%;
 				box-shadow: 0px 1px 3px #888888;
 				background-color: white;
@@ -158,199 +86,139 @@
 				background-position: center;
 				transition: background-color .5s ease-in-out, border-radius .5s ease-in-out;
 				float: left;
-			}
+				
+				&:hover {
+					background-color: #6CADD9;
+					border-radius: 33%;
+				}
+				
+				a {
+					color: black;
+					transition: color .25s ease-in-out;
+				
+					&:hover {color: #6CADD9;}
+				} // end a
+			} // end .button	
 			
-			.button:hover {
-				width: 150px;
-				height: 150px;
-				background-color: #6CADD9;
-				border-radius: 33%;
-			}
+			//=================
+			// HEADINGS (H1 H2 H3 H4)
+			//=================
+			// targets canvas-generated page title
+			h1.page-title {background-color: #6CADD9;}
 			
-			.button a {
-				font-family: "Lato",sans-serif;
-				font-size: 18px;
-				text-decoration: none;
-				display: block;
-				padding: 150px 0px 0px 0px;
-				color: black;
-				text-align: center;
-				transition: color .25s ease-in-out;
-				font-weight: 400;
-				letter-spacing: .5px;
+			// wiki page headings
+			h3 {
+				background-color:#6CADD9;
+				color:white; 
+				margin:0;
+				padding:20px;
+				border-radius:3px 3px 0 0;
+				font-size:3em;
+				white-space:pre;
 				position: relative;
-				top: 10px;}
-			
-			.button a:hover {
-				color: #6CADD9;
+				width: calc(100% + 4.2%);
+				left: -2.1%;
+				top: -10px;
 			}
-		
-			/*WIKI PAGES*/
-			h1.page-title {
-				width: auto;
-				max-width: none;
-				height: auto;
+			h4 {
+				margin-top: 20px;
 				padding: 10px;
-				padding-left: 60px;
-				padding-right: 20px;
-				margin: 0px 0px !important;
-				background: #6CADD9;
-				border: 0px solid #69A8D3;
-				-ms-word-break: break-word;
-				word-break: break-word;
+				background-color: whitesmoke;
+				border-radius: 3px;
+				border: 1px solid #e5e5e5;
+			}
+
+			//=================
+			// LISTS
+			//=================
+			/*
+li {
+				font-size: 1.65em;
+				line-height: 1.65em;
+			}
+*/
+/* 			li p {font-size: inherit;} */
+
+			//=================
+			// WIKI PAGE
+			//=================
+			// wiki page navigation
+			ul.nav li {
+				/*
 				font-family: "Lato", sans-serif;
-				font-size: 3.5em !important;
-				font-weight: 300;
-				color: white !important; 
-				letter-spacing: 2px;
-				line-height: 1.1em;
-			}
-				
-			.show-content.user_content.enhanced {padding: 0px 0px;}
-				
-			.rubric .container{
-				position: relative;
-				width: auto;
-				margin: 0 auto;
-				padding: inherit;
-				padding-bottom: inherit;
-				padding-top: inherit;
-				background: transparent;
-				border-radius: 0;
-				min-height: inherit;
-			}
-			
-			.rubric table {margin-left: 0;}
-			#assignment_show table {margin-left: 0;}
-			#syllabus {margin-left: 0;}	
-		
-			.content {
-				h3 {
-					font-family:'Lato', sans-serif;
-					background-color:#6CADD9;
-					color:white; 
-					margin:0 !important;
-					padding:20px;
-					border-radius:3px 3px 0 0;
-					font-size:3em;
-					white-space:pre;
-					position: relative;
-					width: calc(100% + 4.2%);
-					left: -2.1%;
-					top: -10px;
-					box-sizing: border-box;
-				}
-				h4 {
-					font-family: 'Lato', Helvetica, sans-serif;
-					margin-top: 20px;
-					padding: 10px;
-					background-color: whitesmoke;
+				float: left;
+				margin: 0 10px 10px 0; */
+
+				a {
+					/* color: #333; */
+					
+					background: #FCFCFC;
+					border: 1px solid #D3D3D3;
 					border-radius: 3px;
-					border: 1px solid #e5e5e5;
-				}
-			} // .content
-			
-			.back {margin-right: 20px;}
-				
-			.container ul, 
-			.container ol {
-				padding: 0 4%;}
-			
-			.container li {
-				margin-bottom: 6px;
-				font-size: 120%;}
-				
-			// fixes style conflicts on "files" page
-			.files_holder {
-				.container ul, ol, ul {
-					padding-left: 0;
-					padding-right: 0;
-					margin-bottom: 0;}
-				
-				.container li, li {
-					margin-bottom: 0;
-					font-size: inherit; 
-				}
-			} // .files_holder
-				
-			.container li > p, li > p{
-				margin: inherit;
-				font-size: inherit;
-				line-height: inherit;
-				word-spacing: inherit;
-				letter-spacing: inherit;
-				padding-left: inherit;
-				padding-right: inherit;}
-			
-			p > iframe {margin-left: 0px;}
-				
-			table {	margin-left: 20px;}
-
-
+					padding: 5px 10px;
+					transition: background 0.3s ease-in-out,  color 0.3s ease-in-out, border 0.3s ease-in-out;
 					
-			@media screen and (max-width: 1300px) {
-				.content {
-					.column.full,
-					.column.two-thirds,
-					.column.half,
-					.column.one-third,
-					.column.one-fourth,
-					.column.three-fourths {
-						margin-bottom: 10px;
-						width: 90%;
-						margin-left: 0;
-						margin-right: 0;
+					&:hover {
+						background: #6CADD9;
+						color: white;
+						border: 1px solid #69A8D3;
 					}
-				} //END content
-			} //END @media screen and (max-width:1300x)
-					
-			@media screen and (max-width: 1300px) {
-				.head #course_name {
-					font-size: 275%;}
-				.head #coure_sub {
-					font-size: 50%;}			
-			}
+				} // end a
+			} // emd ul.nav li
+			
+			// Using max-width keeps the iframe from getting cut-off by
+			// Canvas's default "overflow: hidden" when in smaller columns, 
+			// but keeps the video's orignal dimensions in larger columns. 
+/* 			iframe {max-width: 100%}   */
+			
+			
+			
 		} // END #wiki_page_show
-	
+		
+		// =================
 		// DISCUSSION STYLES
 		// =================
 		#discussion_topic {
+			
+			// styles the discussion background, mimics .container
 			.entry-content{
 				background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2UwZjJmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIyJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk2JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMGYyZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 			}
+			
+			// discussion title background color
 			header.discussion-section {
 				background: #6daed9;
 				border: 1px solid #69A8D3;
 			}
+			//discussion title font color
+/*
 			h1.discussion-title,
 			header.discussion-section .discussion-pubdate {
 				color: white;
 			}
+*/
 			
+/*
 			a.avatar,
 			a.author {
 				display: none;
 			}
+*/
 		} // #discussion_topic
 		
 		// Quiz Header
-		.quiz-header h1:first-child {
-			padding: 10px;
-			font-weight: 300;
-			background-color: #6CADD9;
-			color: white;
-			font-family: "Lato", sans-serif;
-			letter-spacing: 1px;}
-				
+		.quiz-header h1:first-child,
 		// Assignment Header
 		#assignment_show h1.title {
-			background-color: #6CADD9;
+/*
 			padding: 10px;
-			color: white;
-			font-family: "Lato", sans-serif;
-			letter-spacing: 1px;
 			font-weight: 300;
-			margin-bottom: 10px;
+*/
+			background-color: #6CADD9;
+			/*
+color: white;
+			font-family: "Lato", sans-serif;
+*/
 		}
 	}
 }
