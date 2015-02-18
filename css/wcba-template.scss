@@ -46,7 +46,7 @@
 		#wiki_page_show{
 			
 			// removes padding for wiki page content area 	
-// 			.show-content {padding: 0;}
+			.show-content {padding: 0;}
 			
 			.subtitle {background-color: #6CADD9;}
 			
@@ -68,11 +68,14 @@
 				word-break: break-word;
 			}
 			
+			.title h4 {
+				background-color: transparent;
+				border: 0;
+				padding: 0;
+			}
+			
 			// instructor's photo
-			.prof {
-				background: url('course-style/_default/placeholder.png') no-repeat 0% 100%;
-			border-radius: 3px;
-			} 
+			.prof {border-radius: 3px;} 
 			
 			//=================
 			// MODULE NAVIGATION
@@ -103,8 +106,10 @@
 			//=================
 			// HEADINGS (H1 H2 H3 H4)
 			//=================
-			// targets canvas-generated page title
-			h1.page-title {background-color: #6CADD9;}
+			h1.page-title {
+				width: auto;
+				position: static;
+			}
 			
 			// wiki page headings
 			h3 {
@@ -116,9 +121,10 @@
 				font-size:3em;
 				white-space:pre;
 				position: relative;
-				width: calc(100% + 4.2%);
-				left: -2.1%;
+				width: 104.2%;
+				margin-left: -2.1%;
 				top: -10px;
+				box-sizing: border-box;
 			}
 			h4 {
 				margin-top: 20px;
