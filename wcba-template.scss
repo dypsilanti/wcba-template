@@ -126,6 +126,36 @@
 				top: -10px;
 				box-sizing: border-box;
 			}
+			
+			@mixin icon-style {
+				width: auto;
+				height: auto;
+				padding: 2.5px 0px 2.5px 60px;
+				content: '';
+			}
+			
+			h3 {
+				&.unit:before {
+					background: url("img/title_icons/unit.png") no-repeat;
+					@include icon-style;}
+			
+				&.key:before {
+					background: url("img/title_icons/key.png") no-repeat;
+					@include icon-style;}
+			
+				&.obj:before {
+					background: url("img/title_icons/obj.png") no-repeat;
+					@include icon-style;}
+			
+				&.learn:before {
+					background: url("img/title_icons/learn.png") no-repeat;
+					@include icon-style;}
+			
+				&.disc:before {
+					background: url("img/title_icons/discussion.png") no-repeat;
+					@include icon-style;}
+			} // end h3
+			
 			h4 {
 				margin-top: 20px;
 				padding: 10px;
