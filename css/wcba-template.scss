@@ -135,50 +135,22 @@
 			}
 
 			//=================
-			// LISTS
-			//=================
-			/*
-li {
-				font-size: 1.65em;
-				line-height: 1.65em;
-			}
-*/
-/* 			li p {font-size: inherit;} */
-
-			//=================
 			// WIKI PAGE
 			//=================
 			// wiki page navigation
-			ul.nav li {
-				/*
-				font-family: "Lato", sans-serif;
-				float: left;
-				margin: 0 10px 10px 0; */
-
-				a {
-					/* color: #333; */
-					
-					background: #FCFCFC;
-					border: 1px solid #D3D3D3;
-					border-radius: 3px;
-					padding: 5px 10px;
-					transition: background 0.3s ease-in-out,  color 0.3s ease-in-out, border 0.3s ease-in-out;
-					
-					&:hover {
-						background: #6CADD9;
-						color: white;
-						border: 1px solid #69A8D3;
-					}
-				} // end a
-			} // emd ul.nav li
-			
-			// Using max-width keeps the iframe from getting cut-off by
-			// Canvas's default "overflow: hidden" when in smaller columns, 
-			// but keeps the video's orignal dimensions in larger columns. 
-/* 			iframe {max-width: 100%}   */
-			
-			
-			
+			ul.nav li a {
+				background: #FCFCFC;
+				border: 1px solid #D3D3D3;
+				border-radius: 3px;
+				padding: 5px 10px;
+				transition: background 0.3s ease-in-out,  color 0.3s ease-in-out, border 0.3s ease-in-out;
+				
+				&:hover {
+					background: #6CADD9;
+					color: white;
+					border: 1px solid #69A8D3;
+				}
+			} // emd ul.nav li a
 		} // END #wiki_page_show
 		
 		// =================
@@ -196,35 +168,11 @@ li {
 				background: #6daed9;
 				border: 1px solid #69A8D3;
 			}
-			//discussion title font color
-/*
-			h1.discussion-title,
-			header.discussion-section .discussion-pubdate {
-				color: white;
-			}
-*/
-			
-/*
-			a.avatar,
-			a.author {
-				display: none;
-			}
-*/
-		} // #discussion_topic
+		} // end #discussion_topic
 		
 		// Quiz Header
 		.quiz-header h1:first-child,
 		// Assignment Header
-		#assignment_show h1.title {
-/*
-			padding: 10px;
-			font-weight: 300;
-*/
-			background-color: #6CADD9;
-			/*
-color: white;
-			font-family: "Lato", sans-serif;
-*/
-		}
-	}
-}
+		#assignment_show h1.title {background-color: #6CADD9;}
+	} // end &courseID
+} // end .context-course_
