@@ -1,42 +1,77 @@
 .context-course_ {
-	/*WCBA TEMPLATE*/			&197687,
-	/*WCBA STUDENT GUIDES*/ 	&200041,
-	/*WCBA Demo Site*/			&203626,
-	/*AACSB COURSE*/			&218284,
-	/*C14 TROBAUGH*/			&211670,
+	//WCBA Master Template
+		&197687,
+	//WCBA Student Guides
+		&200041,
+	//WCBA Demo Site
+		&203626,
+	//AACSB Course
+		&218284,
 	
-	/*S15 ACG2021 GOSLINGA*/	&312996,
-	/*S15 ACG2071 GARVIN*/		&312997,
-	/*S15 BUL4310 Emerson*/		&224392,
-	/*S15 ECO2013 Knight*/		&313525,
-	/*S15 ECO2023 Rush*/		&313000,
-	/*S15 ENT3003 ROSSI*/		&313486,
-	/*S15 FIN3403 TAPLET*/		&313001,
-	/*S15 GEB3213 Douglas*/		&313272,
-	/*S15 GEB3373 PHALIN*/		&313002,
-	/*S15 ISM3004 Olson*/		&313003,
-	/*S15 ISM3013 Mukherjee*/	&313333, &313334,
-	/*S15 MAN3025 Archambeau*/	&313397,
-	/*S15 MAN4504 Munson*/		&313004,
-	/*S15 MAR3023 DiPasquale*/	&313266,
-	/*S15 QMB3250 Thompson*/	&313005,
+	//S15 ACG2021 Goslinga
+		&312996,
+	//S15 ACG2071 Garvin
+		&312997,
+	//S15 BUL4310 Emerson
+		&224392,
+	//S15 ECO2013 Knight
+		&313525,
+	//S15 ECO2023 Rush
+		&313000,
+	//S15 ENT3003 Rossi
+		&313486,
+	//S15 FIN3403 Tapley
+		&313001,
+	//S15 GEB3213 Douglas
+		&313272,
+	//S15 GEB3373 Phalin
+		&313002,
+	//S15 ISM3004 Olson
+		&313003,
+	//S15 ISM3013 Mukherjee
+		&313333, &313334,
+	//S15 MAN3025 Archambeau
+		&313397,
+	//S15 MAN4504 Munson
+		&313004,
+	//S15 MAR3023 DiPasquale
+		&313266,
+	//S15 QMB3250 Thompson
+		&313005,
 	
-	/*A15 ACG2021 Goslinga*/	&316413,
-	/*B15 ACG2071 Garvin*/		&316416,
-	/*B15 ECO2013 Knight*/		&316418,
-	/*B15 ENT3003 Rossi*/		&316420,
-	/*C15 BUL4310 Emerson*/		&316423,
-	/*C15 ECO2023 Rush*/		&316419,
-	/*C15 FIN3403 Tapley*/		&316421,
-	/*C15 GEB3219 McCawley*/	&316425,
-	/*C15 MAN3025 Archambeau*/	&317239, &317969,
-	/*C15 MAN4504 Munson*/		&316422,
-	/*C15 MAR3023 Lutz*/		&316443,
-	/*C15 MAR3231 Trobaugh*/	&316424,
+	//A15 ACG2021 Goslinga
+		&316413,
+	//B15 ACG2071 Garvin
+		&316416,
+	//B15 ECO2013 Knight
+		&316418,
+	//B15 ENT3003 Rossi
+		&316420,
+	//C15 BUL4310 Emerson
+		&316423,
+	//C15 ECO2023 Rush
+		&316419,
+	//C15 FIN3403 Tapley
+		&316421,
+	//C15 GEB3219 McCawley
+		&316425,
+	//C15 MAN3025 Archambeau
+		&317239, &317969,
+	//C15 MAN4504 Munson
+		&316422,
+	//C15 MAR3023 Lutz
+		&316443,
+	//C15 MAR3231 Trobaugh
+		&316424,
 	
-	/*F15 GEB4930 Kraft Means*/	&317394 { 
+	//F15 GEB4930 Kraft Means
+		&317394,
+	//F15 ISM3004 Olson
+		&318474 { 
 		
-		/*HOMEPAGE*/
+		//=================
+		//HOMEPAGE
+		//=================
 		#wiki_page_show{
 			
 			// removes padding for wiki page content area 	
